@@ -26,7 +26,7 @@ public class main {
     public static void main(String[] args) throws InterruptedException {
         //Schedule a job for the event-dispatching thread:
         //creating and showing this application's GUI.
-        for (int i = 0; i < 10000; i++) { // i < arbritary 
+        for (int i = 0; i < 36; i++) { // i < arbritary 
             javax.swing.SwingUtilities.invokeLater(new Runnable() {
                 public void run() {
                     createAndShowGUI();
